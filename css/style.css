@@ -975,7 +975,7 @@ i.icon:before {
 @media only screen and (min-width: 480px) and (max-width: 959px) {
   #header {
     position: relative;
-    padding: 4rem 4rem;
+    padding: 4rem 3rem;
   }
   #header .header-title {
     position: absolute;
@@ -1004,7 +1004,7 @@ i.icon:before {
     font-size: 1.2rem;
   }
   #header .upcoming-event table td {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   #header .upcoming-event table em {
     font-size: 2.5rem;
@@ -1053,6 +1053,11 @@ i.icon:before {
   }
   #header .upcoming-event table td {
     font-size: 1.4rem;
+  }
+  #header .upcoming-event table td span {
+    display: block;
+    margin-top: 0.5rem;
+    text-indent: -0.7rem;
   }
   #header .upcoming-event table em {
     font-size: 2.2rem;
